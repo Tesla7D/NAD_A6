@@ -7597,3 +7597,566 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 391ms (Views: 299.8ms | ActiveRecord: 66.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:16:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (36.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (41.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (211.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (244.9ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1796ms (Views: 1332.4ms | ActiveRecord: 318.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:17:31 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (39.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (434.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (439.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (461.2ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 798ms (Views: 299.8ms | ActiveRecord: 473.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:19:32 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (47.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (39.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (62.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 421ms (Views: 292.5ms | ActiveRecord: 83.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:23:36 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.2ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (39.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (62.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 392ms (Views: 297.5ms | ActiveRecord: 71.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:25:06 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (42.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (40.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (61.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 403ms (Views: 299.9ms | ActiveRecord: 78.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:25:42 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (40.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (63.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 393ms (Views: 295.9ms | ActiveRecord: 72.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:25:52 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (493.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (43.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (47.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (68.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 875ms (Views: 307.9ms | ActiveRecord: 536.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:26:05 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (35.3ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (38.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (43.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (66.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 386ms (Views: 289.2ms | ActiveRecord: 73.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:26:43 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (39.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (61.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 415ms (Views: 301.3ms | ActiveRecord: 71.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:27:17 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (42.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (40.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (64.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 427ms (Views: 294.9ms | ActiveRecord: 78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:28:18 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (38.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (42.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (66.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 433ms (Views: 328.3ms | ActiveRecord: 74.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:28:40 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (62.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (65.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (86.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 407ms (Views: 285.6ms | ActiveRecord: 98.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:29:09 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (35.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (50.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (53.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (75.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 395ms (Views: 286.0ms | ActiveRecord: 85.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:29:29 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (45.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (48.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (71.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 273.7ms | ActiveRecord: 81.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:29:51 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (36.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (36.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (39.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (64.6ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 371ms (Views: 272.0ms | ActiveRecord: 72.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:30:09 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (45.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (40.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (64.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 390ms (Views: 283.6ms | ActiveRecord: 80.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:30:27 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (78.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (74.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (77.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (99.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 487ms (Views: 309.8ms | ActiveRecord: 152.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-25 09:30:35 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 354ms (Views: 300.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-25 09:30:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5bMx7qtO3GvCk8rgCZKtPvvZ/kwlirBIB38T3zaor6f/DZCDFIo97DryNYsHMfRhShOgAx1g7REcB1vSpbuZ9Q==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (124.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/users/980190966
+Completed 302 Found in 408ms (ActiveRecord: 226.3ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 09:30:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (190.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (177.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (208.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (225.3ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (231.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (246.9ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (2.0ms)
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (1012.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1690ms (Views: 356.0ms | ActiveRecord: 1280.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:31:23 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (40.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (31.0ms)
+  [1m[35m (36.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (808.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (5.0ms)
+  Rendered shared/_feed.html.erb (882.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (1044.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1429ms (Views: 416.9ms | ActiveRecord: 951.2ms)
+
+
+Started POST "/codeposts" for 127.0.0.1 at 2016-10-25 09:31:52 -0400
+Processing by CodepostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oLmdPmnw7aYfs1P4To3ydYg1xkL3lBUZCXY184o37ZsCCIGRcDExFDeLmo6iMT7R/qtY2NFMIaig9kN124G9ZA==", "codepost"=>{"title"=>"Red square", "html"=>"<div></div>", "css"=>"height:50px;\r\nwidth: 50px;\r\nbackground-color: red;"}, "commit"=>"Post"}
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (42.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (45.1ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Red square"], ["html", "<div></div>"], ["css", "height:50px;\r\nwidth: 50px;\r\nbackground-color: red;"], ["user_id", 980190966], ["created_at", 2016-10-25 13:31:52 UTC], ["updated_at", 2016-10-25 13:31:52 UTC]]
+  [1m[35m (42.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 260ms (ActiveRecord: 201.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:31:52 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (39.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (41.4ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (35.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (36.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [3 times] (6.0ms)
+  Rendered shared/_feed.html.erb (112.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (269.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 684ms (Views: 420.4ms | ActiveRecord: 182.6ms)
+
+
+Started GET "/codeposts/980190967" for 127.0.0.1 at 2016-10-25 09:31:58 -0400
+Processing by CodepostsController#show as HTML
+  Parameters: {"id"=>"980190967"}
+  [1m[36mCodepost Load (34.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering codeposts/show.html.erb within layouts/application
+  Rendered codeposts/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (38.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (74.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 418ms (Views: 313.6ms | ActiveRecord: 72.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 09:32:01 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.1ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (43.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (37.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [3 times] (6.0ms)
+  Rendered shared/_feed.html.erb (131.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (260.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 581ms (Views: 405.3ms | ActiveRecord: 150.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 09:32:56 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (38.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (38.6ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (35.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (36.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [3 times] (6.0ms)
+  Rendered shared/_feed.html.erb (103.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (232.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 566ms (Views: 392.4ms | ActiveRecord: 145.0ms)
+
+
+Started DELETE "/codeposts/980190963" for 127.0.0.1 at 2016-10-25 09:33:05 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1hLT0DbTFedmKZvUGoK0ZqYTUhHFwWWzAkrtFYtdaO9mPwzz4bRUj5HOh1zH7tgvCCzdEoW0kFeyHwRZVSWMTg==", "id"=>"980190963"}
+  [1m[36mUser Load (50.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (35.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 AND "codeposts"."id" = $2 ORDER BY "codeposts"."created_at" DESC LIMIT $3[0m  [["user_id", 980190966], ["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (35.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (35.0ms)[0m  [1m[31mDELETE FROM "codeposts" WHERE "codeposts"."id" = $1[0m  [["id", 980190963]]
+  [1m[35m (38.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/home
+Completed 302 Found in 202ms (ActiveRecord: 193.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 09:33:05 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (40.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (524.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (526.7ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (24.6ms)
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (53.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (5.0ms)
+  Rendered shared/_feed.html.erb (140.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (776.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1120ms (Views: 440.1ms | ActiveRecord: 653.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 09:33:37 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (45.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (48.7ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (23.0ms)
+  [1m[35m (40.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (35.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (5.0ms)
+  Rendered shared/_feed.html.erb (137.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (274.1ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 610ms (Views: 415.3ms | ActiveRecord: 162.0ms)
+
+
+Started GET "/codeposts/980190966" for 127.0.0.1 at 2016-10-25 09:33:43 -0400
+Processing by CodepostsController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[36mCodepost Load (35.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering codeposts/show.html.erb within layouts/application
+  Rendered codeposts/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 364ms (Views: 270.5ms | ActiveRecord: 71.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 09:33:45 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (42.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (34.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (35.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (97.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (223.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 574ms (Views: 400.5ms | ActiveRecord: 146.8ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 09:33:47 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (38.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (37.0ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (42.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (47.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (3.0ms)
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (38.1ms)
+  Rendered codeposts/index.html.erb within layouts/application (260.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 578ms (Views: 401.4ms | ActiveRecord: 153.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:34:01 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (39.6ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (35.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (37.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (5.0ms)
+  Rendered shared/_feed.html.erb (124.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (255.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 578ms (Views: 409.2ms | ActiveRecord: 143.6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-10-25 09:34:05 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (209.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (212.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 502ms (Views: 268.2ms | ActiveRecord: 209.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:34:08 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (36.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (38.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (31.5ms)
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (36.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (6.0ms)
+  Rendered shared/_feed.html.erb (138.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (301.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 637ms (Views: 467.9ms | ActiveRecord: 143.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-10-25 09:34:59 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  [1m[36mUser Load (43.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (45.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 339ms (Views: 273.3ms | ActiveRecord: 43.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 09:35:01 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (38.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  [1m[35m (37.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (36.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (123.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (252.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 581ms (Views: 408.6ms | ActiveRecord: 146.1ms)
+
+
