@@ -15,3 +15,23 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+document.addEventListener("turbolinks:load", function(){
+    var element = document.getElementById('codepost_html');
+    var element2 = document.getElementById('codepost_css');
+
+    var editor = CodeMirror.fromTextArea(element, {
+        lineNumbers: true,
+        mode: "application/x-ejs",
+        indentUnit: 4,
+        indentWithTabs: true
+    });
+
+    var editor2 = CodeMirror.fromTextArea(element2, {
+        lineNumbers: true,
+        mode: "application/x-ejs",
+        indentUnit: 4,
+        indentWithTabs: true,
+        extraKeys: {"Ctrl-Space": "autocomplete"}
+    });
+});

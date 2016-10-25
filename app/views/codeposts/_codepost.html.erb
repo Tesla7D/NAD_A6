@@ -6,9 +6,10 @@
   <span class="timestamp">
     Posted <%= time_ago_in_words(codepost.created_at) %> ago.
   </span>
+  <%= link_to 'Show', codepost %>
   <% if current_user != nil &&
         current_user.id == codepost.user.id %>
-      <%= link_to "delete", codepost, method: :delete,
+      <%= link_to "Delete", codepost, method: :delete,
                   data: { confirm: "You sure?" } %>
   <% end %>
 </div>

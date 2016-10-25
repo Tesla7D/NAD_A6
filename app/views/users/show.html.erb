@@ -2,10 +2,8 @@
 <div class="bigPanel">
 <h1>
   <%= gravatar_for @user %>
-  <%= @user.name %>
+  <%= @user.name %><br>
   <%= @user.email %>
-  <%= @user.id %>
-  <%= @count %>
 </h1>
 <% if logged_in? && current_user.id == @user.id %>
   <%= link_to 'Destroy', @user, method: :delete, data: { confirm: 'Are you sure?' } %>

@@ -6,6 +6,10 @@ class CodepostsController < ApplicationController
     @codeposts = Codepost.all
   end
 
+  def show
+    @codepost = Codepost.find(params[:id])
+  end
+
   def create
     @codepost = current_user.codeposts.build(codepost_params)
     if @codepost.save

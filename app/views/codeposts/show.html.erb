@@ -1,0 +1,22 @@
+<div class="bigPanel">
+  <p id="notice"><%= notice %></p>
+  <p>
+    <h1>Title : <%= @codepost.title %></h1>
+  </p>
+
+  <p>
+    <strong>Html</strong>
+    <textarea id="codepost_html" disabled>
+    <%= @codepost.html %>
+    </textarea>
+  </p>
+
+  <p>
+    <strong>Css</strong>
+    <textarea id="codepost_css" disabled>
+    <%= @codepost.css %>
+    </textarea>
+  </p>
+
+  <%= link_to 'Back', home_path %>
+</div>

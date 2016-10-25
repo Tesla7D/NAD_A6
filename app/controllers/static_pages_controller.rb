@@ -4,7 +4,7 @@ class StaticPagesController < ApplicationController
       @codepost  = current_user.codeposts.build
       @feed_items = current_user.feed.paginate(page: params[:page])
     else
-      @feed_item = Codepost.last
+      @feed_item = Codepost.first
     end
 
   end

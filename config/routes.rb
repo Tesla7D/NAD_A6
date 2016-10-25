@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   #resources :posts
   resources :users
   #resources :welcome
-  resources :codeposts,    only: [:create, :destroy]
+  resources :codeposts,    only: [:create, :destroy, :show]
 
   root 'static_pages#home'
   get 'users/new'
