@@ -1,0 +1,12 @@
+<% if @codeposts.any? %>
+    <div class="feed">
+      <h3>Codepost (<%= @codeposts.count %>)</h3>
+
+      <tbody>
+      <% @codeposts.each do |post| %>
+          <%= render post %>
+      <% end %>
+      </tbody>
+
+    </div>
+<% end %>

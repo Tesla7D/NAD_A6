@@ -3457,3 +3457,2475 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 345ms (Views: 241.1ms | ActiveRecord: 80.2ms)
 
 
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-24 22:52:27 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (45.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 638ms (Views: 524.7ms | ActiveRecord: 77.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 22:52:31 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (37.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (43.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 324ms (Views: 261.6ms | ActiveRecord: 37.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 22:52:34 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 11533ms (Views: 11476.4ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-10-24 22:53:39 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 292ms (Views: 250.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-10-24 22:55:17 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 268ms (Views: 245.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 22:55:21 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (147.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 428ms (Views: 264.2ms | ActiveRecord: 137.8ms)
+
+
+Started GET "/posts/980190962" for 127.0.0.1 at 2016-10-24 22:55:25 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 311ms (Views: 255.1ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 22:55:27 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 326ms (Views: 266.1ms | ActiveRecord: 35.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 23:01:04 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 633ms (Views: 573.2ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 23:06:28 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 468ms (Views: 412.6ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/posts/980190962" for 127.0.0.1 at 2016-10-24 23:07:38 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 309ms (Views: 249.0ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/posts/980190962" for 127.0.0.1 at 2016-10-24 23:08:44 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (43.6ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 462ms (Views: 395.7ms | ActiveRecord: 43.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 23:09:48 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 437ms (Views: 382.6ms | ActiveRecord: 32.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 23:09:49 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 332ms (Views: 276.0ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 23:09:49 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 322ms (Views: 261.5ms | ActiveRecord: 35.5ms)
+
+
+Started GET "/posts/980190962" for 127.0.0.1 at 2016-10-24 23:09:57 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (36.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 331ms (Views: 265.1ms | ActiveRecord: 36.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 23:10:04 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 282ms (Views: 260.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 23:10:13 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zlINl1tJzqzp9Ev/o3G6KI+x08TzhspvYi143flirp/U7Kz65I0vKxGVtJSt0uN3PnuNi8tslzZ5VTDQanGYzQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (32.0ms)[0m  [1m[33mUPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_digest", "$2a$10$b7drZwM5ytA7rmNkQEYjFeDurLu9LMUFYqJ0gMlsOnbDCVITrMedW"], ["updated_at", 2016-10-25 03:10:14 UTC], ["id", 980190966]]
+  [1m[35m (33.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/users/980190966
+Completed 302 Found in 356ms (ActiveRecord: 198.6ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-24 23:10:14 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 291.4ms | ActiveRecord: 99.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 23:10:17 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (70.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 372ms (Views: 282.7ms | ActiveRecord: 65.6ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:10:20 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (35.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (3.0ms)
+  Rendered posts/edit.html.erb within layouts/application (24.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (41.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 394ms (Views: 280.9ms | ActiveRecord: 74.6ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:10:41 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (31.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (23.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 377ms (Views: 290.3ms | ActiveRecord: 64.0ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:10:52 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/edit.html.erb within layouts/application (24.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 377ms (Views: 284.4ms | ActiveRecord: 67.0ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:11:59 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (31.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (3.0ms)
+  Rendered posts/edit.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  [1m[36mUser Load (36.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (38.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 513ms (Views: 421.3ms | ActiveRecord: 68.0ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:13:34 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (8.0ms)
+  Rendered posts/edit.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 570ms (Views: 481.6ms | ActiveRecord: 65.5ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:14:04 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (36.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 380ms (Views: 286.0ms | ActiveRecord: 68.1ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:14:08 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/edit.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 293.8ms | ActiveRecord: 64.0ms)
+
+
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 23:16:53 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/edit.html.erb within layouts/application (24.5ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (38.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 366ms (Views: 273.8ms | ActiveRecord: 69.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-10-24 23:16:58 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 313ms (Views: 252.5ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-10-24 23:22:35 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 520ms (Views: 381.5ms | ActiveRecord: 99.6ms)
+
+
+  [1m[35m (31.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5705652440659896480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (34.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCodeposts (20161025035330)
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (41.0ms)[0m  [1m[35mCREATE TABLE "codeposts" ("id" serial primary key, "title" character varying, "html" text, "css" text, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_e85e9275ce"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (34.0ms)[0m  [1m[35mCREATE  INDEX  "index_codeposts_on_user_id" ON "codeposts"  ("user_id")[0m
+  [1m[35m (39.0ms)[0m  [1m[35mCREATE  INDEX  "index_codeposts_on_user_id_and_created_at" ON "codeposts"  ("user_id", "created_at")[0m
+  [1m[35mSQL (33.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161025035330"]]
+  [1m[35m (34.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (31.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (36.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(5705652440659896480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (33.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (45.5ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'codeposts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-25 00:13:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (40.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (38.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (9.5ms)
+  Rendered posts/edit.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (76.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 988ms (Views: 695.3ms | ActiveRecord: 209.2ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:13:38 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (31.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (34.5ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC[0m  [["user_id", 980190966]]
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 97.2ms)
+
+
+  
+NoMethodError (undefined method `paginate' for #<ActiveRecord::Associations::CollectionProxy []>):
+  
+app/controllers/users_controller.rb:5:in `show'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1373.5ms)
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:17:45 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (37.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC[0m  [["user_id", 980190966]]
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 76.6ms)
+
+
+  
+NoMethodError (undefined method `paginate' for #<ActiveRecord::Associations::CollectionProxy []>):
+  
+app/controllers/users_controller.rb:5:in `show'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1339.5ms)
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:18:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (32.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.5ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (152.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1732ms (Views: 1269.4ms | ActiveRecord: 298.8ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:27:29 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (39.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (34.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (79.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 546ms (Views: 327.6ms | ActiveRecord: 139.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:27:33 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (181.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 509ms (Views: 308.4ms | ActiveRecord: 175.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:27:37 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (39.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (35.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (78.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 386ms (Views: 288.4ms | ActiveRecord: 74.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:27:43 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 271.6ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:28:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered shared/_user_info.html.erb (36.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (101.6ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 32.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `microposts' for #<User:0x0000000e5f3be8>):
+    1: <%= link_to gravatar_for(current_user, size: 50), current_user %>
+    2: <h1><%= current_user.name %></h1>
+    3: <span><%= link_to "view my profile", current_user %></span>
+    4: <span><%= pluralize(current_user.microposts.count, "micropost") %></span>
+  
+app/views/shared/_user_info.html.erb:4:in `_app_views_shared__user_info_html_erb___481440487_120558120'
+app/views/static_pages/home.html.erb:5:in `_app_views_static_pages_home_html_erb___373525697_121481860'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1378.0ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:28:49 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered shared/_user_info.html.erb (27.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (147.2ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 64.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `codepost' for #<User:0x0000000f2f6bb0>
+Did you mean?  codeposts
+               codeposts=):
+    1: <%= link_to gravatar_for(current_user, size: 50), current_user %>
+    2: <h1><%= current_user.name %></h1>
+    3: <span><%= link_to "view my profile", current_user %></span>
+    4: <span><%= pluralize(current_user.codepost.count, "codeposts") %></span>
+  
+app/views/shared/_user_info.html.erb:4:in `_app_views_shared__user_info_html_erb___481440487_127380200'
+app/views/static_pages/home.html.erb:5:in `_app_views_static_pages_home_html_erb___373525697_107036460'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1341.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:29:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (78.1ms)
+  Rendered posts/_form.html.erb (148.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (307.2ms)
+Completed 500 Internal Server Error in 394ms (ActiveRecord: 102.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x0000000e7b4bf8>:0x0000000f823318>):
+    1: <%= form_for(post) do |f| %>
+    2:   <% if post.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+  
+app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb___904956660_128534520'
+app/views/static_pages/home.html.erb:8:in `_app_views_static_pages_home_html_erb___373525697_130096820'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1334.9ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:30:20 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.0ms)
+  Rendered codeposts/_form.html.erb (186.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (366.3ms)
+Completed 500 Internal Server Error in 454ms (ActiveRecord: 96.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `codepost' for #<#<Class:0x0000000e7b4bf8>:0x0000000e1367e0>
+Did you mean?  codepost_url):
+    1: <%= form_for(codepost) do |f| %>
+    2:   <% if codepost.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(codepost.errors.count, "error") %> prohibited this post from being saved:</h2>
+  
+app/views/codeposts/_form.html.erb:1:in `_app_views_codeposts__form_html_erb___1164508217_127379520'
+app/views/static_pages/home.html.erb:8:in `_app_views_static_pages_home_html_erb___373525697_118077820'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1398.8ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:33:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.5ms)
+  Rendered codeposts/_form.html.erb (129.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (245.2ms)
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 67.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `codepost' for #<#<Class:0x0000000e7b4bf8>:0x0000000f1f60d0>
+Did you mean?  codepost_url):
+    1: <%= form_for(codepost) do |f| %>
+    2:   <% if codepost.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(codepost.errors.count, "error") %> prohibited this post from being saved:</h2>
+  
+app/views/codeposts/_form.html.erb:1:in `_app_views_codeposts__form_html_erb___1164508217_127638900'
+app/views/static_pages/home.html.erb:8:in `_app_views_static_pages_home_html_erb___373525697_126858600'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1242.6ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:33:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (37.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (39.5ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (142.1ms)
+Completed 500 Internal Server Error in 240ms (ActiveRecord: 70.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for(@codepost) do |f| %>
+    2:     <%= render 'shared/error_messages', object: f.object %>
+    3: 
+    4:     <div class="field">
+  
+app/views/shared/_codepost_form.html.erb:1:in `_app_views_shared__codepost_form_html_erb___1088008991_45025600'
+app/views/static_pages/home.html.erb:8:in `_app_views_static_pages_home_html_erb___373525697_51616300'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1362.0ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:36:50 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (41.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (39.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (42.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (53.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (138.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 597ms (Views: 368.8ms | ActiveRecord: 115.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-10-25 00:37:41 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (123.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 442ms (Views: 351.2ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:37:47 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.5ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (69.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 450ms (Views: 295.1ms | ActiveRecord: 130.1ms)
+
+
+Started POST "/codeposts" for 127.0.0.1 at 2016-10-25 00:38:12 -0400
+Processing by CodepostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+baoIGr5VXjxSlCpKn+Rw9IhXrnXCF4ZPG4Zss4HhEpJm3cDvZ4UEAatTCH3E/2KfB7Rupd9q/2MO/D+EH9g6w==", "codepost"=>{"title"=>"Test post", "html"=>"<button>", "css"=>"width: 50px"}, "commit"=>"Post"}
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+Completed 400 Bad Request in 35ms (ActiveRecord: 32.6ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: @codepost):
+  
+app/controllers/codeposts_controller.rb:20:in `codepost_params'
+app/controllers/codeposts_controller.rb:5:in `create'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1319.9ms)
+Started POST "/codeposts" for 127.0.0.1 at 2016-10-25 00:40:03 -0400
+Processing by CodepostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+baoIGr5VXjxSlCpKn+Rw9IhXrnXCF4ZPG4Zss4HhEpJm3cDvZ4UEAatTCH3E/2KfB7Rupd9q/2MO/D+EH9g6w==", "codepost"=>{"title"=>"Test post", "html"=>"<button>", "css"=>"width: 50px"}, "commit"=>"Post"}
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (33.0ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Test post"], ["html", "<button>"], ["css", "width: 50px"], ["user_id", 980190966], ["created_at", 2016-10-25 04:40:03 UTC], ["updated_at", 2016-10-25 04:40:03 UTC]]
+  [1m[35m (33.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 162ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:40:04 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (36.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (184.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 513ms (Views: 304.3ms | ActiveRecord: 174.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:40:24 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (68.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 368ms (Views: 281.3ms | ActiveRecord: 64.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:40:26 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (32.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (67.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 385ms (Views: 287.0ms | ActiveRecord: 64.2ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:40:28 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (37.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (36.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (167.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 614ms (Views: 286.2ms | ActiveRecord: 236.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:40:45 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mPost Load (36.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (72.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 360ms (Views: 266.1ms | ActiveRecord: 69.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:41:16 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.1ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (103.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 426ms (Views: 316.9ms | ActiveRecord: 65.2ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:41:22 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (33.1ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (34.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (2.0ms)
+  Rendered users/show.html.erb within layouts/application (179.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 608ms (Views: 384.2ms | ActiveRecord: 198.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:45:07 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (40.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (33.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.6ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (103.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 476ms (Views: 356.5ms | ActiveRecord: 73.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:45:12 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.1ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (105.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 451ms (Views: 331.7ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:45:19 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.5ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (32.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (163.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 585ms (Views: 295.2ms | ActiveRecord: 230.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:45:21 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (104.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 324.9ms | ActiveRecord: 64.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:45:22 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (106.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 421ms (Views: 324.6ms | ActiveRecord: 67.0ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:45:33 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (33.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (168.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 526ms (Views: 295.1ms | ActiveRecord: 200.6ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:46:43 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (33.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (33.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (185.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 563ms (Views: 316.8ms | ActiveRecord: 197.8ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:46:51 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (158.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 540ms (Views: 315.2ms | ActiveRecord: 197.1ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:47:09 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.1ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (32.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (175.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 531ms (Views: 289.3ms | ActiveRecord: 199.2ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 00:48:58 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (34.5ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (161.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 539ms (Views: 317.0ms | ActiveRecord: 197.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:49:15 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.5ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (30.5ms)
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (114.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (260.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 649ms (Views: 460.0ms | ActiveRecord: 131.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:52:02 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (108.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (235.2ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5695ms (Views: 5537.2ms | ActiveRecord: 132.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:52:20 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (31.0ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (3.5ms)
+  Rendered shared/_feed.html.erb (109.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (250.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5891ms (Views: 5730.1ms | ActiveRecord: 130.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:53:20 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (37.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.0ms)
+  Rendered shared/_error_messages.html.erb (1.5ms)
+  Rendered shared/_codepost_form.html.erb (60.0ms)
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (90.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (267.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 592ms (Views: 433.2ms | ActiveRecord: 134.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:54:05 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (26.5ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (93.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (220.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 533ms (Views: 375.7ms | ActiveRecord: 132.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:54:40 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (104.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 421ms (Views: 332.1ms | ActiveRecord: 65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:55:45 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (38.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (28.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (89.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (230.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 565ms (Views: 404.0ms | ActiveRecord: 135.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:55:57 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (92.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (216.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 532ms (Views: 374.5ms | ActiveRecord: 132.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:56:59 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (38.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.5ms)
+  [1m[35m (31.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (37.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (3.0ms)
+  Rendered shared/_feed.html.erb (94.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (226.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 566ms (Views: 396.4ms | ActiveRecord: 143.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:57:13 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (37.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (37.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (39.5ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (25.5ms)
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (94.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (227.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 571ms (Views: 401.7ms | ActiveRecord: 143.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:58:07 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.5ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (28.0ms)
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (3.0ms)
+  Rendered shared/_feed.html.erb (118.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (250.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5553ms (Views: 5389.6ms | ActiveRecord: 136.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 00:59:03 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (44.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (46.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (91.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (238.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5393ms (Views: 5223.2ms | ActiveRecord: 141.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:00:16 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.7ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (31.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (31.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (125.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (250.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 607ms (Views: 436.2ms | ActiveRecord: 134.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:00:51 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.1ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (111.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (265.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 603ms (Views: 446.5ms | ActiveRecord: 131.2ms)
+
+
+Started POST "/codeposts" for 127.0.0.1 at 2016-10-25 01:01:25 -0400
+Processing by CodepostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9h1qdpbfH20/g5D5pddbXythNJcgttlxu+mQUQG4Z29GMLVVQbheBchkjHF4uzcWhV67lGDDLJULvHkd38CDzg==", "codepost"=>{"title"=>"New post", "html"=>"<div></div>", "css"=>"height: 50px"}, "commit"=>"Post"}
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (32.5ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "New post"], ["html", "<div></div>"], ["css", "height: 50px"], ["user_id", 980190966], ["created_at", 2016-10-25 05:01:25 UTC], ["updated_at", 2016-10-25 05:01:25 UTC]]
+  [1m[35m (34.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 144ms (ActiveRecord: 132.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:01:25 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (36.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.5ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (3.0ms)
+  Rendered shared/_feed.html.erb (108.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (231.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 563ms (Views: 403.3ms | ActiveRecord: 134.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:01:30 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (38.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (40.0ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (27.0ms)
+  [1m[35m (31.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (41.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (3.5ms)
+  Rendered shared/_feed.html.erb (102.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (237.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 592ms (Views: 421.0ms | ActiveRecord: 145.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:01:41 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (28.0ms)
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (96.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (230.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 571ms (Views: 401.9ms | ActiveRecord: 129.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:01:41 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (26.0ms)
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (96.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (228.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 554ms (Views: 399.0ms | ActiveRecord: 131.1ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 01:01:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (35.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (35.0ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (37.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (34.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (1.5ms)
+  Rendered codeposts/_codepost.html.erb (0.5ms)
+  Rendered users/show.html.erb within layouts/application (189.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 579ms (Views: 334.5ms | ActiveRecord: 205.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:01:48 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (93.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (216.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 529ms (Views: 370.4ms | ActiveRecord: 133.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:02:20 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (33.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.6ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.0ms)
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (38.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (5.0ms)
+  Rendered shared/_feed.html.erb (126.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (250.8ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5424ms (Views: 5262.6ms | ActiveRecord: 136.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:02:52 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (36.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (28.5ms)
+  [1m[35m (36.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (34.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (3.0ms)
+  Rendered shared/_feed.html.erb (96.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (236.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5531ms (Views: 5365.9ms | ActiveRecord: 140.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:06:08 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (38.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.5ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (155.1ms)
+  Rendered shared/_feed.html.erb (269.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (394.3ms)
+Completed 500 Internal Server Error in 542ms (ActiveRecord: 173.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `current_user?' for #<#<Class:0x00000014687568>:0x00000014686258>
+Did you mean?  current_user
+               current_page?):
+     6:   <span class="timestamp">
+     7:     Posted <%= time_ago_in_words(codepost.created_at) %> ago.
+     8:   </span>
+     9:   <% if current_user?(codepost.user) %>
+    10:       <%= link_to "delete", codepost, method: :delete,
+    11:                   data: { confirm: "You sure?" } %>
+    12:   <% end %>
+  
+app/views/codeposts/_codepost.html.erb:9:in `_app_views_codeposts__codepost_html_erb___1863441717_186475860'
+app/views/shared/_feed.html.erb:2:in `_app_views_shared__feed_html_erb___114073355_186163620'
+app/views/static_pages/home.html.erb:13:in `_app_views_static_pages_home_html_erb___373525697_171196160'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1244.5ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:07:18 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (35.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.5ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (35.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (37.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (3.5ms)
+  Rendered shared/_feed.html.erb (112.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (255.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 587ms (Views: 408.9ms | ActiveRecord: 141.2ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:07:43 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dfK/ZaCffHE4op4c+eINTBVPD/ZGsVj6kUT9JK5g6DHF32BGd/g9Gc9FgpQkjmEFu3CA9QbErR4hERRocBgMkA==", "id"=>"980190964"}
+  [1m[36mUser Load (44.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1134ms (ActiveRecord: 44.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:08:16 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (35.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.6ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (3.5ms)
+  Rendered shared/_feed.html.erb (100.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (227.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 549ms (Views: 389.8ms | ActiveRecord: 132.2ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:08:28 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oh3m3U5YFm4owW/0IjsVyGDLnjB00B+SZiJ1eVNjDe4SMDn+mT9XBt8mc3z/V3mBzvQRMzSl6nbWd5w1jRvpTw==", "id"=>"980190964"}
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1134ms (ActiveRecord: 37.0ms)
+
+
+Started DELETE "/codeposts/980190963" for 127.0.0.1 at 2016-10-25 01:08:34 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oh3m3U5YFm4owW/0IjsVyGDLnjB00B+SZiJ1eVNjDe4SMDn+mT9XBt8mc3z/V3mBzvQRMzSl6nbWd5w1jRvpTw==", "id"=>"980190963"}
+  [1m[36mUser Load (34.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1098ms (ActiveRecord: 34.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:10:29 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (74.1ms)
+  Rendered shared/_feed.html.erb (185.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (309.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 655ms (Views: 405.9ms | ActiveRecord: 200.1ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:10:36 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"P+0zatXKHr13ADvCRSyly2dh0Pm1XhtS0S3ZAm6GeeaPwOxJAq1f1YDnJ0qYQMmCyV5f+vUr7rZheDBOsP6dRw==", "id"=>"980190964"}
+  [1m[36mUser Load (36.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 AND "codeposts"."id" = $2 ORDER BY "codeposts"."created_at" DESC LIMIT $3[0m  [["user_id", 980190966], ["id", 980190964], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1195ms (ActiveRecord: 68.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:10:40 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (37.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.5ms)
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (4.0ms)
+  Rendered shared/_feed.html.erb (96.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (235.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 576ms (Views: 414.1ms | ActiveRecord: 133.1ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:10:45 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bAF3hDLQyezw47KLByeTsWPH5CKAtKjBcUJ6F6lj0zfcLKin5beIhAcErgPaS//4zfhrIcDBXSXBF5Nbdxs3lg==", "id"=>"980190964"}
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 AND "codeposts"."id" = $2 ORDER BY "codeposts"."created_at" DESC LIMIT $3[0m  [["user_id", 980190966], ["id", 980190964], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1231ms (ActiveRecord: 65.5ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:11:44 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bAF3hDLQyezw47KLByeTsWPH5CKAtKjBcUJ6F6lj0zfcLKin5beIhAcErgPaS//4zfhrIcDBXSXBF5Nbdxs3lg==", "id"=>"980190964"}
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 AND "codeposts"."id" = $2 ORDER BY "codeposts"."created_at" DESC LIMIT $3[0m  [["user_id", 980190966], ["id", 980190964], ["LIMIT", 1]]
+No template found for CodepostsController#destroy, rendering head :no_content
+Completed 204 No Content in 1237ms (ActiveRecord: 66.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:13:19 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (35.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.5ms)
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (59.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [2 times] (98.1ms)
+  Rendered shared/_feed.html.erb (188.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (323.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 672ms (Views: 399.7ms | ActiveRecord: 223.6ms)
+
+
+Started DELETE "/codeposts/980190964" for 127.0.0.1 at 2016-10-25 01:13:33 -0400
+Processing by CodepostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Lzg7TU0A1YdeyO6jjHjQpnzfZ1gu7lMetmU7a7v7/eefFeRummeU76kv8itRFLzv0uDoW26bpvoGMNInZYMZRg==", "id"=>"980190964"}
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 AND "codeposts"."id" = $2 ORDER BY "codeposts"."created_at" DESC LIMIT $3[0m  [["user_id", 980190966], ["id", 980190964], ["LIMIT", 1]]
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (32.0ms)[0m  [1m[31mDELETE FROM "codeposts" WHERE "codeposts"."id" = $1[0m  [["id", 980190964]]
+  [1m[35m (32.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 167ms (ActiveRecord: 161.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:13:33 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  Rendered shared/_user_info.html.erb (34.0ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (23.5ms)
+  [1m[35m (34.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190966)[0m
+  [1m[36mCodepost Load (35.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190966) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.0ms)
+  Rendered shared/_feed.html.erb (118.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (240.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 555ms (Views: 394.6ms | ActiveRecord: 136.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2016-10-25 01:14:16 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K8aF+8XpWH9rPfReTtY3pL0k6UsEamExYEoPOBd4re6b61rYEo4ZF5za6NaTulvtExtmSEQflNXQH+Z0yQBJTw=="}
+  [1m[36mUser Load (39.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[35m (37.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (34.5ms)[0m  [1m[33mUPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_digest", nil], ["updated_at", 2016-10-25 05:14:16 UTC], ["id", 980190966]]
+  [1m[35m (40.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 156ms (ActiveRecord: 151.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:14:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 278ms (Views: 253.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2016-10-25 01:14:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (9.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1688.7ms)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:15:19 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered shared/_feed.html.erb (27.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (55.5ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `any?' for nil:NilClass):
+    1: <% if @feed_items.any? %>
+    2:       <%= render @feed_items %>
+    3:     <%= will_paginate @feed_items %>
+    4: <% end %>
+  
+app/views/shared/_feed.html.erb:1:in `_app_views_shared__feed_html_erb___114073355_138087900'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_154642920'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1271.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:17:11 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (38.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered shared/_feed.html.erb (28.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (52.5ms)
+Completed 500 Internal Server Error in 224ms (ActiveRecord: 38.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `any?' for #<Codepost:0x000000149d52b0>):
+    1: <% if @feed_items.any? %>
+    2:       <%= render @feed_items %>
+    3:     <%= will_paginate @feed_items %>
+    4: <% end %>
+  
+app/views/shared/_feed.html.erb:1:in `_app_views_shared__feed_html_erb___114073355_172669220'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_172900220'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1345.9ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:17:28 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (34.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (79.1ms)
+  Rendered shared/_feed.html.erb (102.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (124.6ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 69.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+     6:   <span class="timestamp">
+     7:     Posted <%= time_ago_in_words(codepost.created_at) %> ago.
+     8:   </span>
+     9:   <% if current_user.id == codepost.user.id %>
+    10:       <%= link_to "delete", codepost, method: :delete,
+    11:                   data: { confirm: "You sure?" } %>
+    12:   <% end %>
+  
+app/views/codeposts/_codepost.html.erb:9:in `_app_views_codeposts__codepost_html_erb___1863441717_169319820'
+app/views/shared/_feed.html.erb:2:in `_app_views_shared__feed_html_erb___114073355_153118940'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_169414680'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1393.5ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:18:43 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (35.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (36.6ms)
+  Rendered shared/_feed.html.erb (120.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (144.6ms)
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 68.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `total_pages' for #<Array:0x000000118caeb8>):
+    1: <% if @feed_items.any? %>
+    2:       <%= render @feed_items %>
+    3:     <%= will_paginate @feed_items %>
+    4: <% end %>
+  
+app/views/shared/_feed.html.erb:3:in `_app_views_shared__feed_html_erb___114073355_146895180'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_147213900'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1243.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:20:09 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 32.0ms)
+
+
+  
+NoMethodError (undefined method `paginate' for #<Array:0x0000000dda1580>):
+  
+app/controllers/static_pages_controller.rb:7:in `home'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1242.1ms)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:20:57 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered shared/_feed.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 153ms (ActiveRecord: 33.0ms)
+
+
+  
+SyntaxError (C:/Users/Grigory/RubymineProjects/NAD_A6/app/views/shared/_feed.html.erb:4: unterminated string meets end of file
+C:/Users/Grigory/RubymineProjects/NAD_A6/app/views/shared/_feed.html.erb:4: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/shared/_feed.html.erb:4: unterminated string meets end of file
+app/views/shared/_feed.html.erb:4: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_202367420'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1362.3ms)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:21:30 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (35.6ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (44.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (166.1ms)
+  Rendered shared/_feed.html.erb (189.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (211.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 527ms (Views: 312.7ms | ActiveRecord: 188.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-25 01:21:39 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 311ms (Views: 289.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-25 01:21:52 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ub7aNkdqT0s2V7cJg7w9/3YW5lnVWvdeouKsQjw+YDNLAHtb+K6uzM42SGKNH2Sgx9y4Fu2wqge5muRPry1WYQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/users/980190966
+Completed 302 Found in 145ms (ActiveRecord: 41.0ms)
+
+
+Started GET "/users/980190966" for 127.0.0.1 at 2016-10-25 01:21:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190966"}
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.7ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190966], ["LIMIT", 1]]
+  [1m[35m (35.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190966]]
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE "codeposts"."user_id" = $1 ORDER BY "codeposts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 980190966], ["LIMIT", 30], ["OFFSET", 0]]
+  Rendered codeposts/_codepost.html.erb (2.0ms)
+  Rendered users/show.html.erb within layouts/application (164.8ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 538ms (Views: 313.4ms | ActiveRecord: 195.9ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2016-10-25 01:21:59 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8O/iMkcLZCLgoQb3+W7GGaBJAzqS8Jh334Or/jomNXxAwj0RkGwlShdGGn8kAqpQDnaMOdKFbZNv1kKy5F7R3Q=="}
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 34ms (ActiveRecord: 33.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:21:59 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (35.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (38.7ms)
+  Rendered shared/_feed.html.erb (60.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (82.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 463ms (Views: 371.9ms | ActiveRecord: 68.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:24:42 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (33.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 33.1ms)
+
+
+  
+NoMethodError (undefined method `paginate' for #<Array:0x0000001651a5e8>):
+  
+app/controllers/static_pages_controller.rb:7:in `home'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1418.9ms)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:26:41 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (39.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered codeposts/_codepost.html.erb (131.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (154.2ms)
+Completed 500 Internal Server Error in 307ms (ActiveRecord: 39.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `codepost' for #<#<Class:0x00000014f1a590>:0x00000014f19320>
+Did you mean?  codepost_url):
+    1: <div id="codepost-<%= codepost.id %>" class="feed_post">
+    2:   <%= link_to gravatar_for(codepost.user, size: 50), codepost.user %>
+    3:   <h3><%= codepost.title %></h3>
+    4:   <%= codepost.html %><br>
+  
+app/views/codeposts/_codepost.html.erb:1:in `_app_views_codeposts__codepost_html_erb___1863441717_176042540'
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_175691540'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1232.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:27:27 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (34.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered codeposts/_codepost.html.erb (165.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (187.6ms)
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 34.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `codepost' for #<#<Class:0x00000014f1a590>:0x00000012f1ba50>
+Did you mean?  codepost_url):
+    1: <div id="codepost-<%= codepost.id %>" class="feed_post">
+    2:   <%= link_to gravatar_for(codepost.user, size: 50), codepost.user %>
+    3:   <h3><%= codepost.title %></h3>
+    4:   <%= codepost.html %><br>
+  
+app/views/codeposts/_codepost.html.erb:1:in `_app_views_codeposts__codepost_html_erb___1863441717_157303980'
+app/views/static_pages/home.html.erb:25:in `_app_views_static_pages_home_html_erb___373525697_158974520'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1318.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:28:37 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 32.5ms)
+
+
+  
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    21:     </div>
+    22:     <div class="feed">
+    23:       <h3>Latest post</h3>
+    24:       <%= render @codepost %>
+    25:     </div>
+    26:     </div>
+    27: <% end %>
+  
+app/views/static_pages/home.html.erb:24:in `_app_views_static_pages_home_html_erb___373525697_144770760'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1416.0ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/will_paginate-3.1.0/lib/will_paginate/railtie.rb:49)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:29:07 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (33.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (168.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (191.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 520ms (Views: 314.7ms | ActiveRecord: 182.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:29:21 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mCodepost Load (32.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (34.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (57.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 373ms (Views: 285.5ms | ActiveRecord: 64.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-10-25 01:29:31 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 310ms (Views: 287.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-10-25 01:30:01 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 312ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-10-25 01:30:21 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 299ms (Views: 276.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 127.0.0.1 at 2016-10-25 01:30:51 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5762QPNvI3D3ZnP2zbw7K1yRepylJehmNYhhjGSWPBhXk2ljJAhiGACBb34Q0Fdi8q71n+VQHYKF3YjAuu7YuQ==", "user"=>{"name"=>"Coder", "email"=>"email@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (32.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Coder"], ["email", "email@mail.com"], ["created_at", 2016-10-25 05:30:51 UTC], ["updated_at", 2016-10-25 05:30:51 UTC], ["password_digest", "$2a$10$/mSiV8hoQCHdqtjJjypyHu5GW8Xvlv2DKyGuOxBQoud561hdN8OyC"]]
+  [1m[35m (33.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/users/980190967
+Completed 302 Found in 166ms (ActiveRecord: 97.3ms)
+
+
+Started GET "/users/980190967" for 127.0.0.1 at 2016-10-25 01:30:51 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190967"}
+  [1m[35m (31.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCodepost Exists (32.5ms)[0m  [1m[34mSELECT  1 AS one FROM "codeposts" WHERE "codeposts"."user_id" = $1 LIMIT $2[0m  [["user_id", 980190967], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (70.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 445ms (Views: 284.2ms | ActiveRecord: 129.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:30:57 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (33.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (23.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  Rendered shared/_feed.html.erb (33.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (154.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 491ms (Views: 369.6ms | ActiveRecord: 96.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:31:07 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (35.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  Rendered shared/_feed.html.erb (33.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (160.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 488ms (Views: 366.5ms | ActiveRecord: 96.6ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-25 01:31:26 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+Completed 404 Not Found in 67ms (ActiveRecord: 65.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=980190965):
+  
+app/controllers/users_controller.rb:4:in `show'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1376.5ms)
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:31:38 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (37.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (39.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (34.0ms)
+  [1m[35m (34.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  Rendered shared/_feed.html.erb (36.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (196.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 589ms (Views: 457.9ms | ActiveRecord: 103.6ms)
+
+
+Started POST "/codeposts" for 127.0.0.1 at 2016-10-25 01:32:00 -0400
+Processing by CodepostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wlCBJSKREgFD8QiewPALipT+2RsUvSMhxQbCaabSmZByfV4G9fZTabQWFBYdnGfDOsFWGFTI1sV1UysleKp9MQ==", "codepost"=>{"title"=>"First post", "html"=>"<button>", "css"=>"width:50px;"}, "commit"=>"Post"}
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (32.0ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "First post"], ["html", "<button>"], ["css", "width:50px;"], ["user_id", 980190967], ["created_at", 2016-10-25 05:32:00 UTC], ["updated_at", 2016-10-25 05:32:00 UTC]]
+  [1m[35m (35.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 142ms (ActiveRecord: 133.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:32:01 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (34.1ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  [1m[36mCodepost Load (32.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190967) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (2.5ms)
+  Rendered shared/_feed.html.erb (92.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (215.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 522ms (Views: 366.8ms | ActiveRecord: 130.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:34:45 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (34.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (35.1ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (24.5ms)
+  [1m[35m (34.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  [1m[36mCodepost Load (32.1ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190967) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (35.0ms)
+  Rendered shared/_feed.html.erb (135.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (277.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 613ms (Views: 401.3ms | ActiveRecord: 165.9ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:35:03 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  Rendered codeposts/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 334ms (Views: 276.6ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:36:40 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (32.1ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (38.6ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (34.6ms)
+  Rendered codeposts/index.html.erb within layouts/application (186.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 472ms (Views: 312.9ms | ActiveRecord: 135.7ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:39:17 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (58.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (33.0ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (36.5ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (35.0ms)
+  Rendered codeposts/index.html.erb within layouts/application (208.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 512ms (Views: 332.0ms | ActiveRecord: 157.1ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:39:29 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (32.8ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (37.0ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (35.0ms)
+  Rendered codeposts/index.html.erb within layouts/application (199.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 535ms (Views: 376.2ms | ActiveRecord: 131.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:39:32 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (34.5ms)
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered shared/_codepost_form.html.erb (25.0ms)
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  [1m[36mCodepost Load (32.5ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190967) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (3.0ms)
+  Rendered shared/_feed.html.erb (93.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (220.7ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 555ms (Views: 392.7ms | ActiveRecord: 130.6ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:39:36 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (38.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (37.0ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (36.6ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (35.0ms)
+  Rendered codeposts/index.html.erb within layouts/application (207.3ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 489ms (Views: 324.8ms | ActiveRecord: 141.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-25 01:39:38 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  [1m[35m (31.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE "codeposts"."user_id" = $1[0m  [["user_id", 980190967]]
+  Rendered shared/_user_info.html.erb (34.0ms)
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered shared/_codepost_form.html.erb (28.0ms)
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts" WHERE (user_id = 980190967)[0m
+  [1m[36mCodepost Load (39.0ms)[0m  [1m[34mSELECT  "codeposts".* FROM "codeposts" WHERE (user_id = 980190967) ORDER BY "codeposts"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered collection of codeposts/_codepost.html.erb [1 times] (4.0ms)
+  Rendered shared/_feed.html.erb (104.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (243.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 611ms (Views: 449.4ms | ActiveRecord: 134.1ms)
+
+
+Started GET "/allposts" for 127.0.0.1 at 2016-10-25 01:39:41 -0400
+Processing by CodepostsController#index as HTML
+  Rendering codeposts/index.html.erb within layouts/application
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "codeposts"[0m
+  [1m[36mCodepost Load (37.0ms)[0m  [1m[34mSELECT "codeposts".* FROM "codeposts" ORDER BY "codeposts"."created_at" DESC[0m
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190967], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (35.1ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190966], ["LIMIT", 1]]
+  Rendered codeposts/_codepost.html.erb (35.0ms)
+  Rendered codeposts/index.html.erb within layouts/application (186.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 507ms (Views: 342.7ms | ActiveRecord: 133.2ms)
+
+

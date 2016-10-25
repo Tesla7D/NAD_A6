@@ -1,0 +1,2 @@
+module CodepostsHelper
+end

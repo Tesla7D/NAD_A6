@@ -1,0 +1,27 @@
+
+<% if logged_in? %>
+    <div class="smartPanel">
+        <section class="user_info">
+          <%= render 'shared/user_info' %>
+        </section>
+        <section class="codepost_form">
+          <%= render 'shared/codepost_form' %>
+        </section>
+    </div>
+    <div class="feed">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+<% else %>
+    <div class="smartPanel">
+    <div class="center jumbotron">
+      <h1>Welcome to the Code tweets!</h1>
+
+      <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    </div>
+    </div>
+    <div class="feed">
+      <h3>Latest post</h3>
+      <%= render @feed_item %>
+    </div>
+<% end %>

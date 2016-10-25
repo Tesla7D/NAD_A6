@@ -63,7 +63,7 @@ footer {
   border-top: 1px solid #eaeaea;
   color: #777;
   background-color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -130,6 +130,7 @@ input {
   width: 600px;
   left: 50%;
   margin-left: -320px;
+  margin-bottom: 100px;
 }
 
 .feed_post{
@@ -150,5 +151,15 @@ input {
   margin-bottom: 30px;
   background-color: #ededed;
   border-radius: 5px;
+  @include material_shadow
+}
+
+.smartPanel{
+  position: relative;
+  background-color: #ededed;
+  border-radius: 5px;
+  padding: 20px;
+  width: 700px;
+  margin: auto;
   @include material_shadow
 }

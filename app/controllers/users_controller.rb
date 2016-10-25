@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   def show
     @count = User.count
     @user = User.find(params[:id])
+    @codeposts = @user.codeposts.paginate(page: params[:page])
   end
 
   def new

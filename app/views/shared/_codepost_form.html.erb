@@ -1,0 +1,22 @@
+<%= form_for(@codepost) do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
+
+    <div class="field">
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </div>
+
+    <div id="html_field" class="field">
+      <%= f.label :html %>
+      <%= f.text_area :html %>
+    </div>
+
+    <div class="field">
+      <%= f.label :css %>
+      <%= f.text_area :css %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Post"%>
+    </div>
+<% end %>

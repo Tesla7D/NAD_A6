@@ -1,0 +1,14 @@
+<div id="codepost-<%= codepost.id %>" class="feed_post">
+  <%= link_to gravatar_for(codepost.user, size: 50), codepost.user %>
+  <h3><%= codepost.title %></h3>
+  <%= codepost.html %><br>
+  <%= codepost.css %><br>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(codepost.created_at) %> ago.
+  </span>
+  <% if current_user != nil &&
+        current_user.id == codepost.user.id %>
+      <%= link_to "delete", codepost, method: :delete,
+                  data: { confirm: "You sure?" } %>
+  <% end %>
+</div>

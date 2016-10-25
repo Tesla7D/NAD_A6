@@ -366,3 +366,52 @@ Processing by UsersController#new as HTML
   Rendered users/new.html.erb within layouts/application (27.5ms)
 Completed 200 OK in 97ms (Views: 72.9ms | ActiveRecord: 0.0ms)
   [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (33.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (33.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "codeposts" DISABLE TRIGGER ALL[0m
+  [1m[35m (35.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (32.5ms)[0m  [1m[31mDELETE FROM "codeposts"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:30.718840', '2016-10-25 03:57:30.718840', 980190962, 980190962)[0m
+  [1m[36mFixture Insert (32.6ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:30.718840', '2016-10-25 03:57:30.718840', 298486374, 298486374)[0m
+  [1m[36mFixture Delete (32.5ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (34.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:31.039256', '2016-10-25 03:57:31.039256', 980190962)[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:31.039256', '2016-10-25 03:57:31.039256', 298486374)[0m
+  [1m[36mFixture Delete (32.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (34.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (34.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "codeposts" DISABLE TRIGGER ALL[0m
+  [1m[35m (32.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (33.0ms)[0m  [1m[31mDELETE FROM "codeposts"[0m
+  [1m[36mFixture Insert (34.1ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:31.695288', '2016-10-25 03:57:31.695288', 980190962, 980190962)[0m
+  [1m[36mFixture Insert (32.6ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:31.695288', '2016-10-25 03:57:31.695288', 298486374, 298486374)[0m
+  [1m[36mFixture Delete (32.2ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (33.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:31.900140', '2016-10-25 03:57:31.900140', 980190962)[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:31.900140', '2016-10-25 03:57:31.900140', 298486374)[0m
+  [1m[36mFixture Delete (35.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (32.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (34.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (37.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "codeposts" DISABLE TRIGGER ALL[0m
+  [1m[35m (38.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (32.5ms)[0m  [1m[31mDELETE FROM "codeposts"[0m
+  [1m[36mFixture Insert (32.6ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:32.419639', '2016-10-25 03:57:32.419639', 980190962, 980190962)[0m
+  [1m[36mFixture Insert (34.5ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:32.419639', '2016-10-25 03:57:32.419639', 298486374, 298486374)[0m
+  [1m[36mFixture Delete (32.0ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:32.626879', '2016-10-25 03:57:32.626879', 980190962)[0m
+  [1m[36mFixture Insert (36.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:32.626879', '2016-10-25 03:57:32.626879', 298486374)[0m
+  [1m[36mFixture Delete (35.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (34.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "codeposts" DISABLE TRIGGER ALL[0m
+  [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (33.0ms)[0m  [1m[31mDELETE FROM "codeposts"[0m
+  [1m[36mFixture Insert (37.5ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:33.143755', '2016-10-25 03:57:33.143755', 980190962, 980190962)[0m
+  [1m[36mFixture Insert (33.0ms)[0m  [1m[32mINSERT INTO "codeposts" ("title", "html", "css", "created_at", "updated_at", "id", "user_id") VALUES ('MyString', 'MyText', 'MyText', '2016-10-25 03:57:33.143755', '2016-10-25 03:57:33.143755', 298486374, 298486374)[0m
+  [1m[36mFixture Delete (33.5ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:33.350393', '2016-10-25 03:57:33.350393', 980190962)[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 03:57:33.350393', '2016-10-25 03:57:33.350393', 298486374)[0m
+  [1m[36mFixture Delete (33.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m

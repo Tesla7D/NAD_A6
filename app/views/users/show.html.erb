@@ -7,7 +7,20 @@
   <%= @user.id %>
   <%= @count %>
 </h1>
-<% if logged_in? %>
+<% if logged_in? && current_user.id == @user.id %>
   <%= link_to 'Destroy', @user, method: :delete, data: { confirm: 'Are you sure?' } %>
 <% end %>
 </div>
+
+<% if @user.codeposts.any? %>
+<div class="feed">
+  <h3>Codepost (<%= @user.codeposts.count %>)</h3>
+
+  <tbody>
+  <% @codeposts.each do |post| %>
+      <%= render post %>
+  <% end %>
+  </tbody>
+
+</div>
+<% end %>
