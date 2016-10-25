@@ -934,3 +934,1260 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 237ms (Views: 122.9ms | ActiveRecord: 68.1ms)
 
 
+Started GET "/login" for 127.0.0.1 at 2016-10-24 20:49:32 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 305ms (Views: 283.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-10-24 20:50:35 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 436ms (Views: 146.4ms | ActiveRecord: 222.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 20:51:42 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 171ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 20:51:45 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w6ao6qbYxmOkUCluWXUhItxKj6xGrIZ2dD0ikYoX+Zhzi3fJcb+HC1O3NeaEGU1rcnUArwbZc5LEaMvdVG8dOQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (38.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 257ms (Views: 140.9ms | ActiveRecord: 73.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 20:54:52 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 170ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 20:55:32 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C52cc53CvqsxJz5Ppde+cjEki7o4XGTSp/Nl7XpEkn67sENQSqX/w8bAIsd4u9I7nxsEuXgpkTYXpoyhpDx23w==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 260ms (Views: 121.2ms | ActiveRecord: 98.1ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 20:55:52 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ik/HIufqLvq1nzfYZmUKPgrlhsaObi4AppORqomH3UGSYhgBMI1vkkJ4K1C7CWZ3pNoJxc4b2+QWxnjmV/854A==", "session"=>{"email"=>"example@example.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@example.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/users/980190965
+Completed 302 Found in 184ms (ActiveRecord: 105.6ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 20:55:52 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 249ms (Views: 156.2ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 20:57:21 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (49.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 248ms (Views: 132.2ms | ActiveRecord: 84.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 21:08:17 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (83.1ms)
+Completed 200 OK in 301ms (Views: 278.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 21:11:53 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 181ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:12:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bA/SU7Wa3vQbN6oB42p+JuWeXU7E3BkvsI8JwcmKJZTcIg1wYv2fnOzQtok+BhJvS6HSTYSp7MsA2uCNF/LBNQ==", "session"=>{"email"=>"example@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@example.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 233ms (Views: 154.1ms | ActiveRecord: 69.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:12:39 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I6LJHw6t6rFPSNh4Q6NUJud9Rt9yLUGeJkjsruRZ0vCTjxY82cqr2bivxPCezzhvSULJ3DJYtHqWHQXiOiE2UQ==", "session"=>{"email"=>"example@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "example@example.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 241ms (Views: 137.3ms | ActiveRecord: 67.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:12:59 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gb2/DePCf6C8DuDNE/nN6UAHS6eRR3hKo7lLTXIgok4xkGAuNKU+yEvp/EXOlaGg7jjEpNEyja4T7KIBrFhG7w==", "session"=>{"email"=>"email@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "email@example.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 233ms (Views: 129.0ms | ActiveRecord: 67.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-10-24 21:13:02 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 259ms (Views: 165.2ms | ActiveRecord: 67.0ms)
+
+
+Started POST "/signup" for 127.0.0.1 at 2016-10-24 21:13:21 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EnKuNK1bOxZqA5jfdKtg/YICOAA6+NssGU911XZzpnJ7d06gA6bgXA9RqEogoJgPCouuzJvrOSJcsigT0DkaeA==", "user"=>{"name"=>"Grigory", "email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (33.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (36.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grigory"], ["email", "grikzyrev@gmail.com"], ["created_at", 2016-10-25 01:13:21 UTC], ["updated_at", 2016-10-25 01:13:21 UTC], ["password_digest", "$2a$10$JRs/MwgBvmlkSmh8/.dZSOwH7R6MqTPnhtO5ooWJiOZf51EHuEXp2"]]
+  [1m[35m (33.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/users/980190965
+Completed 302 Found in 171ms (ActiveRecord: 103.2ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:13:21 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 224ms (Views: 129.1ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2016-10-24 21:13:33 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 148ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:13:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+Q+w2P70/JqAu+8+udxDHN/pHntr7Ck4/pmuDGt6QTBJIm/7KZO98ndc87ZksC9VcdaReCuZ3NxOzEdAtQKlkQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 178ms (ActiveRecord: 31.5ms)
+
+
+  
+NoMethodError (undefined method `remember_digest=' for #<User:0x0000000e540e30>
+Did you mean?  remember_token=):
+  
+app/models/user.rb:29:in `remember'
+app/helpers/sessions_helper.rb:8:in `remember'
+app/controllers/sessions_controller.rb:10:in `create'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1415.5ms)
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:16:57 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+Q+w2P70/JqAu+8+udxDHN/pHntr7Ck4/pmuDGt6QTBJIm/7KZO98ndc87ZksC9VcdaReCuZ3NxOzEdAtQKlkQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 32.0ms)
+
+
+  
+NoMethodError (undefined method `remember_digest=' for #<User:0x0000000e575e28>
+Did you mean?  remember_token=):
+  
+app/models/user.rb:29:in `remember'
+app/helpers/sessions_helper.rb:8:in `remember'
+app/controllers/sessions_controller.rb:10:in `create'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1332.0ms)
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5705652440659896480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (35.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (34.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (38.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5705652440659896480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (34.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (36.6ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (34.1ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:24:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+Q+w2P70/JqAu+8+udxDHN/pHntr7Ck4/pmuDGt6QTBJIm/7KZO98ndc87ZksC9VcdaReCuZ3NxOzEdAtQKlkQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (38.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 75.6ms)
+
+
+  
+NoMethodError (undefined method `remember_digest=' for #<User:0x0000000e106860>
+Did you mean?  remember_token=):
+  
+app/models/user.rb:29:in `remember'
+app/helpers/sessions_helper.rb:8:in `remember'
+app/controllers/sessions_controller.rb:10:in `create'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1311.4ms)
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5705652440659896480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (33.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRememberDigestToUsers (20161025012501)
+  [1m[35m (33.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.0ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (32.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20161025012501"]]
+  [1m[35m (46.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (33.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (37.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (34.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5705652440659896480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (36.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'posts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (35.5ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started POST "/login" for 127.0.0.1 at 2016-10-24 21:25:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (32.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+Q+w2P70/JqAu+8+udxDHN/pHntr7Ck4/pmuDGt6QTBJIm/7KZO98ndc87ZksC9VcdaReCuZ3NxOzEdAtQKlkQ==", "session"=>{"email"=>"grikzyrev@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grikzyrev@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (34.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1 WHERE "users"."id" = $2[0m  [["updated_at", 2016-10-25 01:25:23 UTC], ["id", 980190965]]
+  [1m[35m (32.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/users/980190965
+Completed 302 Found in 388ms (ActiveRecord: 165.1ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:25:23 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 218ms (Views: 128.4ms | ActiveRecord: 65.1ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:31:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (35.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (35.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 469ms (ActiveRecord: 70.1ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/config
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/images
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/javascripts
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/stylesheets
+  C:/Users/Grigory/RubymineProjects/NAD_A6/vendor/assets/javascripts
+  C:/Users/Grigory/RubymineProjects/NAD_A6/vendor/assets/stylesheets
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.0.0.1/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    4:     <title>Code tweets!</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/custom.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__694412048_59002120'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1314.9ms)
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:34:30 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (36.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 71.6ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/config
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/images
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/javascripts
+  C:/Users/Grigory/RubymineProjects/NAD_A6/app/assets/stylesheets
+  C:/Users/Grigory/RubymineProjects/NAD_A6/vendor/assets/javascripts
+  C:/Users/Grigory/RubymineProjects/NAD_A6/vendor/assets/stylesheets
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.0.0.1/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts):
+    4:     <title>Code tweets!</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/custom.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__694412048_128803840'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1388.5ms)
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:35:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (33.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (36.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 7637ms (Views: 7304.1ms | ActiveRecord: 211.3ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:37:56 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (38.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (166.6ms)
+Completed 500 Internal Server Error in 507ms (ActiveRecord: 74.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x0000000519b3d8>:0x000000129506c0>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <li><%= link_to "Help", help_path %></li>
+    8:         <% if logged_in? %>
+    9:             <li><%= link_to "Users", '#' %></li>
+   10:             <li class="dropdown">
+  
+app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__1217479450_149407880'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__4553376_155895780'
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1350.0ms)
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:38:28 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (113.6ms)
+Completed 200 OK in 426ms (Views: 259.7ms | ActiveRecord: 142.6ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:38:32 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (35.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (70.6ms)
+Completed 200 OK in 400ms (Views: 243.8ms | ActiveRecord: 100.2ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:38:34 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (34.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+Completed 200 OK in 342ms (Views: 217.8ms | ActiveRecord: 101.1ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:38:35 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (32.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (106.6ms)
+Completed 200 OK in 422ms (Views: 262.9ms | ActiveRecord: 135.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:37 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (159.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (118.6ms)
+Completed 200 OK in 525ms (Views: 256.8ms | ActiveRecord: 236.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:40 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (39.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (40.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (34.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (133.7ms)
+Completed 200 OK in 413ms (Views: 255.7ms | ActiveRecord: 135.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:43 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (37.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (39.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+Completed 200 OK in 321ms (Views: 228.5ms | ActiveRecord: 69.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:44 -0400
+Processing by PostsController#index as HTML
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:44 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (66.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (68.1ms)
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (38.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (47.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (51.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (54.0ms)
+Completed 200 OK in 492ms (Views: 351.7ms | ActiveRecord: 117.6ms)
+
+
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.5ms)
+Completed 200 OK in 415ms (Views: 318.7ms | ActiveRecord: 73.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:45 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (38.0ms)
+Completed 200 OK in 327ms (Views: 236.1ms | ActiveRecord: 69.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:45 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+Completed 200 OK in 312ms (Views: 223.1ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:47 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (36.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.5ms)
+Completed 200 OK in 340ms (Views: 244.2ms | ActiveRecord: 72.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:54 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (44.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (46.0ms)
+Completed 200 OK in 327ms (Views: 226.4ms | ActiveRecord: 77.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:38:55 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (40.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (41.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.5ms)
+Completed 200 OK in 334ms (Views: 234.9ms | ActiveRecord: 73.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:39:24 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.6ms)
+Completed 200 OK in 309ms (Views: 218.4ms | ActiveRecord: 66.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:39:59 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (39.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (42.5ms)
+Completed 200 OK in 314ms (Views: 220.4ms | ActiveRecord: 71.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:00 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.0ms)
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:01 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mPost Load (62.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (63.5ms)
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:01 -0400
+  [1m[36mUser Load (38.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+Processing by PostsController#index as HTML
+  Rendered layouts/_header.html.erb (66.5ms)
+Completed 200 OK in 570ms (Views: 475.7ms | ActiveRecord: 72.1ms)
+
+
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (38.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (42.5ms)
+Completed 200 OK in 542ms (Views: 411.8ms | ActiveRecord: 100.1ms)
+
+
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (35.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+Completed 200 OK in 382ms (Views: 287.2ms | ActiveRecord: 70.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:02 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (53.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (55.5ms)
+Completed 200 OK in 330ms (Views: 221.6ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:05 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+Completed 200 OK in 343ms (Views: 252.3ms | ActiveRecord: 69.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:06 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (36.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+Completed 200 OK in 333ms (Views: 238.1ms | ActiveRecord: 69.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:07 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+Completed 200 OK in 321ms (Views: 233.5ms | ActiveRecord: 66.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:40:09 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.5ms)
+Completed 200 OK in 292ms (Views: 203.0ms | ActiveRecord: 66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:41:07 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 405ms (Views: 313.8ms | ActiveRecord: 66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:41:14 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 326ms (Views: 238.4ms | ActiveRecord: 64.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:42:15 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (41.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (43.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5312ms (Views: 5216.3ms | ActiveRecord: 73.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:42:32 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 350ms (Views: 260.6ms | ActiveRecord: 64.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:07 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 373ms (Views: 283.0ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:15 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (35.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 330ms (Views: 237.3ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:16 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 348ms (Views: 258.2ms | ActiveRecord: 67.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:17 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (39.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (41.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 338ms (Views: 243.8ms | ActiveRecord: 72.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:24 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (46.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (48.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 353ms (Views: 249.9ms | ActiveRecord: 78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:30 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 317ms (Views: 228.8ms | ActiveRecord: 65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:33 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (38.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (40.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 338ms (Views: 243.1ms | ActiveRecord: 72.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:34 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (94.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (98.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (49.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (51.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 425ms (Views: 258.4ms | ActiveRecord: 143.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:36 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 330ms (Views: 239.8ms | ActiveRecord: 68.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:43:46 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (51.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (53.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 414ms (Views: 308.9ms | ActiveRecord: 82.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:45:51 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (38.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (40.0ms)
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:45:52 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (49.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (51.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (37.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (40.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 9798ms (Views: 9693.3ms | ActiveRecord: 75.6ms)
+
+
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 9284ms (Views: 9167.1ms | ActiveRecord: 84.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:46:37 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (42.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (43.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (38.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (40.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5262ms (Views: 5159.9ms | ActiveRecord: 80.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:47:31 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (37.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5347ms (Views: 5253.9ms | ActiveRecord: 70.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:48:43 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (36.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (35.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5483ms (Views: 5389.2ms | ActiveRecord: 71.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:49:44 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5304ms (Views: 5210.8ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:50:39 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (58.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (60.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5279ms (Views: 5161.0ms | ActiveRecord: 92.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:51:27 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (38.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (41.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5401ms (Views: 5307.0ms | ActiveRecord: 72.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:52:55 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5264ms (Views: 5175.5ms | ActiveRecord: 65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:53:31 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (31.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5259ms (Views: 5171.8ms | ActiveRecord: 64.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:55:09 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (43.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (45.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (44.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (46.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5205ms (Views: 5095.0ms | ActiveRecord: 88.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:56:08 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 5302ms (Views: 5209.5ms | ActiveRecord: 64.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:56:36 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (40.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (42.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5619ms (Views: 5523.3ms | ActiveRecord: 73.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:57:00 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 342ms (Views: 250.4ms | ActiveRecord: 65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:57:00 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (36.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 364ms (Views: 271.4ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:57:08 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 321ms (Views: 232.4ms | ActiveRecord: 66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:57:09 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (37.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (39.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 360ms (Views: 262.5ms | ActiveRecord: 71.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:57:10 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 361ms (Views: 264.0ms | ActiveRecord: 67.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:58:08 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (58.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (60.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5195ms (Views: 5080.9ms | ActiveRecord: 92.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:58:20 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (36.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (35.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 322ms (Views: 231.7ms | ActiveRecord: 68.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-10-24 21:58:24 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (22.5ms)
+  Rendered posts/new.html.erb within layouts/application (45.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 350ms (Views: 283.7ms | ActiveRecord: 36.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 21:58:30 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (42.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (44.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 361ms (Views: 264.1ms | ActiveRecord: 74.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2016-10-24 21:58:32 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/new.html.erb within layouts/application (26.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (36.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (37.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 348ms (Views: 290.4ms | ActiveRecord: 36.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-10-24 21:58:47 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZyPX1dkueKyGRpqkzC30z/T9kTM2qBXuKD4theNd1GG9+beWW4fdXv/dI3Aj9YL8FBlLrS804GOQ0KiH5vealg==", "post"=>{"title"=>"Test", "html"=>"<button>", "css"=>"width:50px"}, "commit"=>"Create Post"}
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (34.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Test"], ["html", "<button>"], ["css", "width:50px"], ["created_at", 2016-10-25 01:58:47 UTC], ["updated_at", 2016-10-25 01:58:47 UTC]]
+  [1m[35m (44.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/posts/980190964
+Completed 302 Found in 115ms (ActiveRecord: 110.6ms)
+
+
+Started GET "/posts/980190964" for 127.0.0.1 at 2016-10-24 21:58:47 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mPost Load (32.6ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 389ms (Views: 267.0ms | ActiveRecord: 65.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 21:58:51 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (46.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (49.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 369ms (Views: 266.5ms | ActiveRecord: 81.1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 21:58:57 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (41.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (43.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 365ms (Views: 268.6ms | ActiveRecord: 75.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:58:58 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (48.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (50.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (37.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (39.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 384ms (Views: 276.1ms | ActiveRecord: 85.6ms)
+
+
+Started GET "/users/980190965" for 127.0.0.1 at 2016-10-24 21:59:06 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190965"}
+  [1m[35m (33.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (33.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (35.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 411ms (Views: 254.2ms | ActiveRecord: 101.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 21:59:25 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (32.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (34.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 358ms (Views: 270.9ms | ActiveRecord: 65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 22:00:25 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (34.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (36.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 344ms (Views: 250.6ms | ActiveRecord: 66.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-24 22:00:51 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (31.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190965], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 345ms (Views: 257.5ms | ActiveRecord: 63.6ms)
+
+

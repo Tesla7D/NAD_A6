@@ -205,3 +205,164 @@ Processing by PostsController#edit as HTML
   Rendered posts/edit.html.erb within layouts/application (23.5ms)
 Completed 200 OK in 149ms (Views: 69.5ms | ActiveRecord: 32.7ms)
   [1m[35m (33.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (32.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[35m (32.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (33.0ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 01:00:40.609601', '2016-10-25 01:00:40.609601', 980190962)[0m
+  [1m[36mFixture Insert (32.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 01:00:40.609601', '2016-10-25 01:00:40.609601', 298486374)[0m
+  [1m[36mFixture Delete (31.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 01:00:40.930050', '2016-10-25 01:00:40.930050', 980190962)[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 01:00:40.930050', '2016-10-25 01:00:40.930050', 298486374)[0m
+  [1m[35m (32.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (31.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------
+UserTest: test_password_should_be_present_(nonblank)
+----------------------------------------------------
+  [1m[35m (31.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (32.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grigory"], ["email", "grikzyrev@gmail.com"], ["created_at", 2016-10-25 01:00:51 UTC], ["updated_at", 2016-10-25 01:00:51 UTC], ["password_digest", "$2a$04$ZfFOjGewowgrMnxQUk8U5.SMiFpks2JyAAu48e/oLve5vXs21iNg2"]]
+  [1m[35m (31.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (32.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------
+UserTest: test_password_should_have_a_minimum_length
+----------------------------------------------------
+  [1m[35m (31.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (32.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grigory"], ["email", "grikzyrev@gmail.com"], ["created_at", 2016-10-25 01:00:51 UTC], ["updated_at", 2016-10-25 01:00:51 UTC], ["password_digest", "$2a$04$bRuOUxTmivTIG9mYSevTfO.MjNe4zDHJy1.JxSWM0Imn6PWg/uSk2"]]
+  [1m[35m (31.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (31.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.0ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------
+SessionsControllerTest: test_should_get_new
+-------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2016-10-24 21:00:52 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 618ms (Views: 584.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (32.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------------------------
+UsersLoginTest: test_login_with_valid_information_followed_by_logout
+--------------------------------------------------------------------
+Started GET "/login" for 127.0.0.1 at 2016-10-24 21:00:53 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.6ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------
+PostsControllerTest: test_should_update_post
+--------------------------------------------
+  [1m[36mPost Load (34.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/posts/980190962" for 127.0.0.1 at 2016-10-24 21:00:53 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"post"=>{"css"=>"MyString", "html"=>"MyString", "title"=>"MyString"}, "id"=>"980190962"}
+  [1m[36mPost Load (34.6ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (31.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (32.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts/980190962
+Completed 302 Found in 116ms (ActiveRecord: 98.6ms)
+  [1m[35m (33.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (34.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------
+PostsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mPost Load (32.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/posts/new" for 127.0.0.1 at 2016-10-24 21:00:54 -0400
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 123ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (34.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------
+PostsControllerTest: test_should_create_post
+--------------------------------------------
+  [1m[36mPost Load (32.8ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (36.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+Started POST "/posts" for 127.0.0.1 at 2016-10-24 21:00:54 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"css"=>"MyString", "html"=>"MyString", "title"=>"MyString"}}
+  [1m[35m (33.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (35.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "MyString"], ["html", "MyString"], ["css", "MyString"], ["created_at", 2016-10-25 01:00:54 UTC], ["updated_at", 2016-10-25 01:00:54 UTC]]
+  [1m[35m (31.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts/980190963
+Completed 302 Found in 104ms (ActiveRecord: 100.6ms)
+  [1m[35m (32.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  [1m[36mPost Load (34.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (32.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (35.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------
+PostsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/posts" for 127.0.0.1 at 2016-10-24 21:00:54 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (35.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 118ms (Views: 57.5ms | ActiveRecord: 35.0ms)
+  [1m[35m (33.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------
+PostsControllerTest: test_should_show_post
+------------------------------------------
+  [1m[36mPost Load (32.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/posts/980190962" for 127.0.0.1 at 2016-10-24 21:00:54 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (32.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 47.7ms | ActiveRecord: 32.5ms)
+  [1m[35m (32.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+---------------------------------------------
+PostsControllerTest: test_should_destroy_post
+---------------------------------------------
+  [1m[36mPost Load (32.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (31.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+Started DELETE "/posts/980190962" for 127.0.0.1 at 2016-10-24 21:00:55 -0400
+Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (39.0ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (31.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (31.6ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (31.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/posts
+Completed 302 Found in 137ms (ActiveRecord: 133.2ms)
+  [1m[35m (33.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35m (34.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------
+PostsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mPost Load (32.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/posts/980190962/edit" for 127.0.0.1 at 2016-10-24 21:00:55 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mPost Load (33.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 130ms (Views: 72.7ms | ActiveRecord: 33.5ms)
+  [1m[35m (32.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Started GET "/users/new" for 127.0.0.1 at 2016-10-24 21:00:55 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.5ms)
+  Rendered users/new.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 97ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m
