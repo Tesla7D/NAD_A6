@@ -1,0 +1,61 @@
+  [1m[36mActiveRecord::SchemaMigration Load (32.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[35m (31.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (33.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (32.0ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 00:03:28.544282', '2016-10-25 00:03:28.544282', 980190962)[0m
+  [1m[36mFixture Insert (32.0ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 00:03:28.544282', '2016-10-25 00:03:28.544282', 298486374)[0m
+  [1m[36mFixture Delete (32.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 00:03:28.849096', '2016-10-25 00:03:28.849096', 980190962)[0m
+  [1m[36mFixture Insert (33.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 00:03:28.849096', '2016-10-25 00:03:28.849096', 298486374)[0m
+  [1m[35m (32.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (31.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.6ms)[0m  [1m[35mBEGIN[0m
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[35m (33.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (31.6ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------
+UserTest: test_name_should_be_present
+-------------------------------------
+  [1m[35m (32.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.0ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------
+UserTest: test_email_should_be_present
+--------------------------------------
+  [1m[35m (33.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (32.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (40.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.0ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "posts" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL[0m
+  [1m[35m (37.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (34.5ms)[0m  [1m[31mDELETE FROM "posts"[0m
+  [1m[36mFixture Insert (35.1ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 00:05:28.997856', '2016-10-25 00:05:28.997856', 980190962)[0m
+  [1m[36mFixture Insert (36.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "html", "css", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-10-25 00:05:28.997856', '2016-10-25 00:05:28.997856', 298486374)[0m
+  [1m[36mFixture Delete (33.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (32.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 00:05:29.324279', '2016-10-25 00:05:29.324279', 980190962)[0m
+  [1m[36mFixture Insert (33.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-10-25 00:05:29.324279', '2016-10-25 00:05:29.324279', 298486374)[0m
+  [1m[35m (40.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (31.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.5ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "posts" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL[0m
+  [1m[35m (57.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (34.0ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------
+UserTest: test_password_should_be_present_(nonblank)
+----------------------------------------------------
+  [1m[35m (43.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (43.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grigory"], ["email", "grikzyrev@gmail.com"], ["created_at", 2016-10-25 00:05:39 UTC], ["updated_at", 2016-10-25 00:05:39 UTC], ["password_digest", "$2a$04$20gVyQ40Hnyvo1jl2hx5bOVNrMNovbvno6BN6ntpcyIzheT5nmWXm"]]
+  [1m[35m (57.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (31.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (32.6ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------------
+UserTest: test_password_should_have_a_minimum_length
+----------------------------------------------------
+  [1m[35m (37.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (43.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Grigory"], ["email", "grikzyrev@gmail.com"], ["created_at", 2016-10-25 00:05:39 UTC], ["updated_at", 2016-10-25 00:05:39 UTC], ["password_digest", "$2a$04$cZtDmwJ54uR47yZWCHpE8OAV3p3NTTKCLWhhPzzpq17wJxkNh7kBi"]]
+  [1m[35m (35.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (37.1ms)[0m  [1m[31mROLLBACK[0m
