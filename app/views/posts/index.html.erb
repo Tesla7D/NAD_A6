@@ -1,33 +1,33 @@
 <p id="notice"><%= notice %></p>
 
+<div class="bigPanel">
 <h1>Posts</h1>
 
+<% if logged_in? %>
+<h2>Write your own post!</h2>
 <%= link_to 'New Post', new_post_path %>
+<% end %>
+</div>
 
 <div class="feed">
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Html</th>
-      <th>Css</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
   <tbody>
     <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <td><%= post.html %></td>
-        <td><%= post.css %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <div class="feed_post">
+        <h3><%= post.title %></h3>
+        <%= post.html %><br>
+        <%= post.css %><br>
+
+        <%= link_to 'Show', post %>
+
+        <% if logged_in? %>
+          <%= link_to 'Edit', edit_post_path(post) %>
+          <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <% end %>
+      </div>
     <% end %>
   </tbody>
-</table>
+
 </div>
 
 <br>
