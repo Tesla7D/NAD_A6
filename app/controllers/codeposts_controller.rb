@@ -13,7 +13,7 @@ class CodepostsController < ApplicationController
   def create
     @codepost = current_user.codeposts.build(codepost_params)
     if @codepost.save
-      flash[:success] = "Codepost created!"
+      flash[:success] = "Post created!"
       redirect_to root_url
     else
       @feed_items = []

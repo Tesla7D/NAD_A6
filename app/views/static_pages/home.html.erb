@@ -3,6 +3,70 @@
 <div id="signup"><div class="pure-g standwith-grid"><div class="pure-u-1 pure-u-md-1-3 signup-title">Share your feedback</div><div id="standwith-form" class="pure-u-1 pure-u-md-2-3"><div class="pure-g"><form class="signup-form" action="https://my.democrats.org/page/s/come-together-and-fight-back-tour" method="POST"><div class="pure-u-1 pure-u-md-1-3"><div><!-- Email --> <input style="visibility:hidden" class="email" type="email" name="email" placeholder="Email address" required id="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,11}"></div></div><div class="pure-u-1 pure-u-md-1-3"><div><!-- Zip --> <input style="visibility:hidden" class="zip" type="zip" name="zip" placeholder="Zip code" required id="zip" maxlength="5" oninvalid="this.setCustomValidity('Please enter a valid zip code')" onchange="this.setCustomValidity('')" pattern="\d{5}-?(\d{4})?"></div></div><div class="pure-u-1 pure-u-md-1-3"><div><!-- Submit --> <input class="submit pure-button" style="visibility:hidden" type="submit" class="pure-button" name="submit" value="Add my name"></div></div></form></div></div></div></div>
 
 
+<style>
+    .smartPanel input[type=text],textarea{
+        border:1px solid grey;
+        padding:5px;
+        border-radius:3px;
+        margin:10px;
+        font-size:20px;
+        vertical-align:middle;
+    }
+
+    .smartPanel textarea{
+        min-width:500px;
+        min-height:300px;
+    }
+
+/* Reset `button` and button-style `input` default styles */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+    .smartPanel input[type=submit]{
+        border:1px solid grey;
+        padding:10px;
+        width:150px;
+        margin-left:50px;
+    }
+
+    .smartPanel{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .alert{
+        background-color:#F6F6F6;
+        padding:30px !important;
+        margin:20px; 
+    }
+    .alert-success{
+        background-color:#19AC8C;
+        color:white;
+    }
+</style>
+
+<% flash.each do |message_type, message| %>
+    <div class="alert alert-<%= message_type %>"><%= message %></div>
+<% end %>
 
 <% if logged_in? %>
     <div class="smartPanel">

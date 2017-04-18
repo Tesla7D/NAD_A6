@@ -1,12 +1,9 @@
 <div id="codepost-<%= codepost.id %>" class="feed_post">
   <%= link_to gravatar_for(codepost.user, size: 50), codepost.user %>
-  <h3><%= codepost.title %></h3>
+  <h3><%= codepost.title %> <span class="codepost_by">by <%= codepost.user.name %></span></h3>
   <%= #simple_format(codepost.html, style: 'background-color: red;')
-      index = codepost.html.index('>')
-      if (index != -1 && index != nil)
-        text = codepost.html.insert(index, ' style = ""')
+        text = codepost.html
         text.html_safe
-      end
   %><br>
   <span class="timestamp">
     Posted <%= time_ago_in_words(codepost.created_at) %> ago.
