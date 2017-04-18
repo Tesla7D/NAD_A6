@@ -20,6 +20,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def index
+    @users = User.paginate(page: params[:page])
+  end
+
   def destroy
     log_out
     current_user.destroy
