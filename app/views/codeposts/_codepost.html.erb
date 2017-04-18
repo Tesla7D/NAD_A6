@@ -3,8 +3,8 @@
   <h3><%= codepost.title %></h3>
   <%= #simple_format(codepost.html, style: 'background-color: red;')
       index = codepost.html.index('>')
-      if (index != -1)
-        text = codepost.html.insert(index, ' style = "' + codepost.css + '"')
+      if (index != -1 && index != nil)
+        text = codepost.html.insert(index, ' style = ""')
         text.html_safe
       end
   %><br>
