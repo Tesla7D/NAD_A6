@@ -42,6 +42,14 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
 
+  def self.search(search)
+    if search
+      self.where("name like ?", "%#{search}%")
+    else
+      self.all
+    end
+  end
+
   def feed
     Codepost.where("user_id = ?", id)
   end
