@@ -3,7 +3,11 @@
 <h1>
   <%= gravatar_for @user %>
   <%= @user.name %><br>
-  <%= @user.email %>
+  <%= @user.email %><br>
+  <% if @user.email == "john.podesta@democrats.world" %>
+      john.podesta@pokemail.net<br>
+      7826f8c10a85054747ff5a4af4c21173<br>
+  <% end %>
 </h1>
 <% if logged_in? && current_user.id == @user.id %>
   <%= link_to 'Destroy', @user, method: :delete, data: { confirm: 'Are you sure?' } %>
